@@ -1,0 +1,36 @@
+/* universal selector*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:11px;
+    margin-left:22px;
+}
+/*element selector */
+h2{
+    color: rgb(217, 255, 0);
+}
+/* id selector*/
+#el1{
+    color: blueviolet;
+}
+.abc{
+    color: coral;
+}
+#e23{
+    color: darkblue;
+}
+/* grouping selector*/
+nav,.abc,#e23,table{
+    background-color: black;
+    color: brown;
+    border: 1px solid;
+}
+footer{
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    right: 0;
+}
